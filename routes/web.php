@@ -46,3 +46,7 @@ Route::get('articles', function()
         'articles' => $articles
     ]);
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
