@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    Hello  {{ $toto }} , {{$age}}
+    Hello  {{ $post }}
+
+    
 </body>
 </html>
